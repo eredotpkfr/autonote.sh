@@ -1,5 +1,5 @@
 # autonote.sh
-Automatically Back Up Your Notes To GitHub.
+Automatically Back Up Your (BoostNote) Notes To GitHub.
 
 - Follow Me On Twitter (https://twitter.com/YoksulErdogan?lang=tr)
 - Follow Me On GitHub (https://github.com/eredotpkfr)
