@@ -1,15 +1,14 @@
 #!/bin/bash
 
-# AUTHOR: Eredot_PK&FR       0={:::::::::::::::>
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# AUTHOR: Eredot_PK&FR       0=={::::::::::::>
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # Follow Me On Twitter (https://twitter.com/YoksulErdogan?lang=tr)
-# Follow Me On Instagram (https://www.instagram.com/eredot_pk.fr/)
 # Follow Me On GitHub (https://github.com/eredotpkfr)
 # Follow Me On Linkedin (https://www.linkedin.com/in/erdo%C4%9Fan-yoksul-47897a151/)
 # Follow Me On My Blog (https://www.erdoganyoksul.com/)
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-delete_files(){
+function delete_files(){
     deleted_files=`git status | grep "deleted:" | awk '{print $2}'`
     if [ ! -z "$deleted_files" ]; then
         zenity --question --width 333 --text="Are you sure ? Do you want to delete this/these files ?\n $(echo -n $deleted_files | tr ' ' '\t')"
@@ -20,7 +19,7 @@ delete_files(){
     else :
     fi }
 
-push_files(){
+function push_files(){
     cd /home/eredot_pkfr/n0t3s/notes/ && git add *
     if [[ "`git status`" == *"nothing to commit"* ]]; then
         if [[ "`git status`" == *"nothing to commit"* && "`git status`" == *"(use \"git push\" to publish your local commits)"* ]]; then
