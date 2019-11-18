@@ -4,7 +4,7 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # Follow Me On Twitter (https://twitter.com/YoksulErdogan?lang=tr)
 # Follow Me On GitHub (https://github.com/eredotpkfr)
-# Follow Me On Linkedin (https://www.linkedin.com/in/erdo%C4%9Fan-yoksul-47897a151/)
+# Follow Me On Linkedin (https://www.linkedin.com/in/eredotpkfr/)
 # Follow Me On My Blog (https://www.erdoganyoksul.com/)
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
