@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # AUTHOR: Eredot_PK&FR       0=={::::::::::::>
-# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# -----------------------------------------------------------------------------------
 # Follow Me On Twitter (https://twitter.com/eredot_pkfr)
 # Follow Me On GitHub (https://github.com/eredotpkfr)
 # Follow Me On Linkedin (https://www.linkedin.com/in/eredotpkfr/)
 # Follow Me On My Blog (https://www.erdoganyoksul.com/)
-# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# -----------------------------------------------------------------------------------
+
 
 function delete_files(){
     deleted_files=`git status | grep "deleted:" | awk '{print $2}'`
